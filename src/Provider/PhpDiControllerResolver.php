@@ -57,7 +57,7 @@ class PhpDiControllerResolver implements ControllerResolverInterface
             return $controller;
         }
 
-        if (strpos($controller, ':')) {
+        if (1 === substr_count($controller, ':')) {
             list($class, $method) = explode(':', $controller, 2);
 
             return array($this->container->make($class), $method);
