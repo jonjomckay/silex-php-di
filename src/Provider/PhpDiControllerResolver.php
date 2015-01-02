@@ -5,6 +5,13 @@ use DI\Container;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpKernel\Controller\ControllerResolverInterface;
 
+/**
+ * Class PhpDiControllerResolver
+ * @package Xenolope\Silex\Provider
+ *
+ * Based on thispagecannotbefound/silex-php-di, by Abel de Beer, released under the MIT license
+ * @link https://github.com/thispagecannotbefound/SilexPhpDi
+ */
 class PhpDiControllerResolver implements ControllerResolverInterface
 {
 

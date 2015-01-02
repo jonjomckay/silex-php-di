@@ -4,6 +4,13 @@ namespace Xenolope\Silex\Provider;
 use Symfony\Component\HttpFoundation\Request;
 use Xenolope\Silex\BaseTestCase;
 
+/**
+ * Class PhpDiControllerResolverTest
+ * @package Xenolope\Silex\Provider
+ *
+ * Based on thispagecannotbefound/silex-php-di, by Abel de Beer, released under the MIT license
+ * @link https://github.com/thispagecannotbefound/SilexPhpDi
+ */
 class PhpDiControllerResolverTest extends BaseTestCase
 {
 

@@ -7,6 +7,13 @@ use DI\ContainerBuilder;
 use Silex\Application;
 use Silex\ServiceProviderInterface;
 
+/**
+ * Class PhpDiServiceProvider
+ * @package Xenolope\Silex\Provider
+ *
+ * Based on thispagecannotbefound/silex-php-di, by Abel de Beer, released under the MIT license
+ * @link https://github.com/thispagecannotbefound/SilexPhpDi
+ */
 class PhpDiServiceProvider implements ServiceProviderInterface
 {
 

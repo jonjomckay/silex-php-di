@@ -1,5 +1,9 @@
 <?php
 
+/**
+ * Based on thispagecannotbefound/silex-php-di, by Abel de Beer, released under the MIT license
+ * @link https://github.com/thispagecannotbefound/SilexPhpDi
+ */
 return array(
     'Doctrine\DBAL\Connection' => \DI\link('db'),
     'Doctrine\DBAL\Driver\Connection' => \DI\link('db'),
